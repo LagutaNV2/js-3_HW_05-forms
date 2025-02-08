@@ -1,6 +1,7 @@
-ссылка:
+ссылка: https://lagutanv2.github.io/js-3_HW_05-forms/
 
-CI:
+CI: [![Build status](https://ci.appveyor.com/api/projects/status/028wf7bwfqwwe76v?svg=true)](https://ci.appveyor.com/project/LagutaNV2/js-3-hw-05-forms)
+
 
 Домашнее задание к занятию "Работа с HTML-формами"
 
