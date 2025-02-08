@@ -76,7 +76,10 @@ class Popover {
   _removePopover() {
     const button = document.querySelector("#toggle-popover");
     if (this._currentPopover) {
-      this._currentPopover.remove();
+      // Даем время DOM обновиться перед удалением
+      setTimeout(() => {
+        this._currentPopover.remove();
+      }, 0);
       this._currentPopover = null;
     }
 
